@@ -1,0 +1,33 @@
+# Large / third-party challenge inputs (see each writeup for what it expects)
+*.mkv
+*.mp4
+*.wad
+*.WAD
+*.aac
+*.apk
+src_repo/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.venv*/
+*.egg-info/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Local secrets / environment (never commit)
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+*.ovpn
+secrets.*
